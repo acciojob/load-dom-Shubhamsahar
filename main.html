@@ -9,10 +9,11 @@
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
-		document.addEventListener('DOMContentLoaded', () => {
-            const textNode = document.createTextNode('DOM load success');
-            document.body.appendChild(textNode);
+		const para = document.createElement('p');
+            para.textContent = 'DOM load success';
+            document.body.appendChild(para);
         });
+
 </script>
 
 </body>
